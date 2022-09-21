@@ -90,7 +90,9 @@ public class ChatHudMixin {
 
     private UUID extractSender(Text text) {
         String string = TextVisitFactory.removeFormattingCodes(text);
+        println(string);
         String string2 = StringUtils.substringBetween(string, "<", ">");
+        println(string2);
         if (string2 == null) {
             return Util.NIL_UUID;
         }
