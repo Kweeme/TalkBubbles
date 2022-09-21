@@ -9,3 +9,5 @@ TalkBubbles is a mod built for the [Fabric Loader](https://fabricmc.net/). It re
 ### License
 
 TalkBubbles is licensed under MIT.
+
+.
